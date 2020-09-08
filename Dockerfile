@@ -1,4 +1,5 @@
 FROM openjdk:8-jdk-alpine
 VOLUME /tmp
-COPY ${JAR_FILE} demo.jar
+ARG JAR_FILE
+COPY ${JAR_FILE} xp-management.jar
 ENTRYPOINT ["java","-jar","/xp-management.jar"]
