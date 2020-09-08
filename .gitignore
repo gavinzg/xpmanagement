@@ -1,0 +1,10 @@
+**/target/
+.DS_Store
+logs/
+
+#intellij
+.idea/
+**/target/
+*.iml
+*.ipr
+*.iws
