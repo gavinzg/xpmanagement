@@ -1,14 +1,14 @@
 # xpmanagement
 
-##Setup locally
+## Setup locally
 
 ### Database setup
 
-1.Pull postgres image
+#### Pull postgres image
 ```shell script
 docker pull postgres
 ```
-2.Run docker
+#### Run docker
 ```shell script
 docker run -d \
     - P
